@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/app_background_1">
+ 
+    <LinearLayout android:id="@+id/layoutContent"
+        android:layout_width="fill_parent"
+        android:layout_height="410dip"
+        android:orientation="vertical"
+        android:layout_marginBottom="5dip">
+        
+        <ListView
+	        android:id="@+id/listResult"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:divider="#b5b5b5"
+	        android:dividerHeight="1dp"
+	        android:listSelector="@drawable/list_selector" />
+    </LinearLayout>
+    
+    <LinearLayout android:id="@+id/layoutStatus"
+        android:layout_width="fill_parent"
+        android:layout_height="63dip"
+        android:background="#805c5c5c"
+        android:padding="3dip"
+        >
+        
+        <Button android:id="@+id/btnBackToFirstActivity"
+            android:layout_width="80dip"
+            android:layout_height="wrap_content"
+            android:text="@string/btnBack"
+            style="@style/ButtonText"
+            android:background="@drawable/my_button"/>
+        
+        <Button android:id="@+id/btnStop"
+            android:layout_width="80dip"
+            android:layout_height="wrap_content"
+            android:text="@string/btnStop"
+            style="@style/ButtonText"
+            android:background="@drawable/my_button"/>
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="3dip" >
+
+            <TextView
+                android:id="@+id/txtStatus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lines="1"
+                android:text="Đang tìm ..."
+                android:textSize="15sp" />
+
+        </LinearLayout>
+        
+    </LinearLayout>
+ 
+</LinearLayout>

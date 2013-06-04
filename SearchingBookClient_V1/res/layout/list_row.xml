@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/list_selector"
+    android:orientation="horizontal"
+    android:padding="5dip" >
+    
+    <!-- list row left side thumb image -->
+    <LinearLayout android:id="@+id/thumbnail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="3dip"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/list_item_image_bg"
+        android:layout_marginRight="5dip"
+        android:orientation="vertical">
+        
+        <ImageView android:id="@+id/list_image"
+            android:layout_width="100dip"
+            android:layout_height="150dip" />
+    </LinearLayout>
+    
+    <!-- infomation of book -->
+    <LinearLayout android:id="@+id/bookinfo"
+        android:layout_width="195dip"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignTop="@+id/thumbnail"
+        android:layout_toRightOf="@+id/thumbnail"
+        android:padding="5dip">
+        
+        <TextView android:id="@+id/BookTitle"
+            style="@style/BookTitle"
+            android:text="Tên sách là một đoạn text rất dài, nên cần chạy chạy :D"/>
+        
+        <TextView android:id="@+id/author"
+            style="@style/author"
+            android:text="* Tác giả: Tên tác giả"
+            android:layout_marginTop="10dip"/>
+        
+        <TextView android:id="@+id/publisher"
+            style="@style/author"
+            android:text="* NXB: Nhà Xuất Bản"
+            android:layout_marginTop="10dip"/>
+        
+        <TextView android:id="@+id/price"
+            style="@style/author"
+            android:text="* giá bán: 100000 VNĐ"
+            android:layout_marginTop="10dip"/>
+        
+    </LinearLayout>
+
+</RelativeLayout>

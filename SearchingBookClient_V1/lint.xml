@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="ContentDescription">
+        <ignore path="res/layout/list_row.xml" />
+    </issue>
+    <issue id="HardcodedText">
+        <ignore path="res/layout/activity_view_book_detail.xml" />
+        <ignore path="res/layout/list_row.xml" />
+        <ignore path="res\layout\activity_view_book_detail.xml" />
+        <ignore path="res\layout\activity_view_results.xml" />
+    </issue>
+</lint>

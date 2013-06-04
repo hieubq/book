@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Tìm Kiếm Sách Online</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="btnCapture">Chụp ảnh</string>
+    <string name="btnOpenPic">Mở ảnh</string>
+    <string name="btnSearch">Tìm kiếm</string>
+    <string name="btnBack">Trở lại</string>
+    <string name="btnStop">Dừng</string>
+    <string name="CbxCatalog">Catalogs</string>
+    <string name="StatusLoading">Đang tải</string>
+    <string name="StatusDone">Đã tải xong</string>
+    <string name="title_activity_view_results">Kết quả tìm thấy</string>
+    <string name="title_activity_view_book_detail">Thông tin chi tiết</string>
+
+</resources>
